@@ -12,6 +12,7 @@ public class controlador {
 		
 		@GetMapping("/hello-world")
 		public ResponseEntity<String> get() {
+			int i = 0;
 			return ResponseEntity.ok("Hello World Andres2!");
 		}
 	}
